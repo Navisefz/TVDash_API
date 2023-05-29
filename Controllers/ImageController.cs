@@ -45,7 +45,7 @@ namespace ImageUpload.Controllers
             return Ok(imageModels);
         }
        */
-
+       //get method
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ImageModel>>> GetImages(int floor)
         {
